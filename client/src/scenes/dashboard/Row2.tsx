@@ -62,6 +62,7 @@ const Row2 = () => {
 
   return (
     <>
+      {/* gridArea={"d"} */}
       <DashboardBox gridArea="d">
         <BoxHeader
           title="Operational vs Non-Operational Expenses"
@@ -113,6 +114,7 @@ const Row2 = () => {
           </LineChart>
         </ResponsiveContainer>
       </DashboardBox>
+      {/* gridArea={"e"} */}
       <DashboardBox gridArea={"e"}>
         <BoxHeader title="Campaigns and Targets" sideText="+4%" />
         <FlextBetween mt={"0.25rem"} gap={"1.5rem"} pr={"1.5rem"}>
@@ -164,6 +166,7 @@ const Row2 = () => {
           </Box>
         </FlextBetween>
       </DashboardBox>
+      {/* gridArea={"f"} */}
       <DashboardBox gridArea={"f"}>
         <BoxHeader title="Product Prices vs Expenses" sideText="+4%" />
         <ResponsiveContainer width="100%" height="100%">
